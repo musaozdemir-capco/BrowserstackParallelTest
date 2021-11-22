@@ -1,0 +1,27 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "musaozdemir1",
+  "key": "GPL9ZsMGyD5qusyswVTD",
+
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": [
+    {
+      "browser": "chrome"
+    },
+    {
+      "browser": "firefox"
+    },
+    {
+      "browser": "safari",
+      "os": "OS X"
+    },
+    {
+      "browser": "Internet Explorer"
+    }
+  ]
+}
